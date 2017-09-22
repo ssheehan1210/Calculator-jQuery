@@ -1,0 +1,76 @@
+* {
+	border: 1px solid gray;
+}
+
+p {
+	background-color: white;
+}
+
+aside {
+/*	background-color: pink;
+*/	float: right;
+	text-align: center;
+	width: 20%
+}
+
+#spec-buttons {
+	display: flex;
+	flex-direction: row;
+	overflow: scroll;
+	flex-wrap: wrap;
+	justify-content: space-between;
+/*	background-color: orange;
+*/	float: left;
+	text-align: center;
+	width: 70%;
+}
+
+#number-buttons {
+/*	background-color: green;
+*/	float: left;
+	text-align: center;
+	width: 70%
+}
+
+.button {
+	flex: 2 1 auto;
+	background-color: red;
+}
+
+#row-two {
+	display: flex;
+	flex-direction: row;
+	overflow: scroll;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#row-three {
+	display: flex;
+	flex-direction: row;
+	overflow: scroll;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#row-four {
+	display: flex;
+	flex-direction: row;
+	overflow: scroll;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#row-five {
+	display: flex;
+	flex-direction: row;
+	overflow: scroll;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+

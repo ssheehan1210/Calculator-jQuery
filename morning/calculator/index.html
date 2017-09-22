@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Sam Sheehan's Calculator</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+
+<!-- Planning out the calculator -->
+<!-- top screen, number keys in the middle and left, return keys located along the right-hand of the keypad -->
+
+<body>
+	<!-- The header section, which contains the nearly square-shaped display of the calculator -->
+	<header>
+		<div id="calc-screen">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+		</div>
+	</header>
+
+	<!-- Top-left row of buttons that have special functions: sine, cosine, tangent -->
+	<div id="spec-buttons">
+		<div class="button" id="sine-button">
+			<p>sin</p>
+		</div>
+		<div class="button" id="cosine-button">
+			<p>cos</p>
+		</div>
+		<div class="button" id="tangent-button">
+			<p>tan</p>
+		</div>
+	</div>
+
+	<!-- Column of keys for the operators all along the right-hand side -->
+	<aside>
+		<div class="button" id="plus-button">
+			<p>+</p>
+		</div>
+		<div class="button" id="minus-button">
+			<p>-</p>
+		</div>
+		<div class="button" id="multiply-button">
+			<p>*</p>
+		</div>
+		<div class="button" id="divide-button">
+			<p>/</p>
+		</div>
+		<div class="button" id="equals-button">
+			<p>=</p>
+		</div>
+	</aside>
+
+	<!-- Set of number keys under spec functions along the left-hand side and the bottom-left -->
+	<div id="number-buttons">
+		<div id="row-two">
+			<div class="button" >
+				<p>1</p>
+			</div>
+			<div class="button" >
+				<p>2</p>
+			</div>
+			<div class="button" >
+				<p>3</p>
+			</div>
+		</div>
+		<div id="row-three">
+			<div class="button" >
+				<p>4</p>
+			</div>
+			<div class="button" >
+				<p>5</p>
+			</div>
+			<div class="button" >
+				<p>6</p>
+			</div>
+		</div>
+		<div id="row-four">
+			<div class="button" >
+				<p>7</p>
+			</div>
+			<div class="button" >
+				<p>8</p>
+			</div>
+			<div class="button" >
+				<p>9</p>
+			</div>
+		</div>
+		<div id="row-five">
+			<div class="button" id="decimal-button">
+				<p>.</p>
+			</div>
+			<div class="button" id="zero-button">
+				<p>0</p>
+			</div>
+			<div class="button" id="percent-button">
+				<p>%</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer with calculator owner's name -->
+	<footer>
+		<h5 id="foot-text">The owner of this calculator is Sam Sheehan</h5>
+	</footer>
+
+	<script src="scripts/app.js"></script>
+</body>
+</html>
+
+
